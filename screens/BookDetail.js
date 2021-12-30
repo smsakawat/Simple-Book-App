@@ -115,7 +115,7 @@ const BookDetail = ({ route, navigation }) => {
           </TouchableOpacity>
         </View>
 
-        {/* Book Cover */}
+        {/* Book Cover Oart */}
         <View
           style={{ flex: 5, paddingTop: SIZES.padding2, alignItems: "center" }}
         >
@@ -130,7 +130,7 @@ const BookDetail = ({ route, navigation }) => {
           />
         </View>
 
-        {/* Book Name and Author */}
+        {/* Book Name and Author Part*/}
         <View
           style={{ flex: 1.8, alignItems: "center", justifyContent: "center" }}
         >
@@ -142,7 +142,7 @@ const BookDetail = ({ route, navigation }) => {
           </Text>
         </View>
 
-        {/* Book Info */}
+        {/* Book Info  Part*/}
         <View
           style={{
             flexDirection: "row",
@@ -162,7 +162,7 @@ const BookDetail = ({ route, navigation }) => {
 
           <LineDivider />
 
-          {/* Pages */}
+          {/* Pages Part*/}
           <View
             style={{
               flex: 1,
@@ -308,7 +308,7 @@ const BookDetail = ({ route, navigation }) => {
             alignItems: "center",
             justifyContent: "center",
           }}
-          onPress={() => console.log("Start Reading")}
+          //   onPress={() => console.log("Start Reading")}
         >
           <Text style={{ ...FONTS.h3, color: COLORS.white }}>
             Start Reading
