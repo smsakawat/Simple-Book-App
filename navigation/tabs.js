@@ -9,7 +9,7 @@ const Tab = createBottomTabNavigator();
 const tabOptions = {
   showLabel: false,
   style: {
-    height: "10%",
+    height: "10.4%",
     backgroundColor: COLORS.black,
   },
 };
@@ -27,12 +27,12 @@ const Tabs = () => {
               return (
                 <Image
                   source={icons.dashboard_icon}
-                  resizeMode="contain"
                   style={{
                     tintColor: tintColor,
                     width: 24,
                     height: 24,
                   }}
+                  resizeMode="contain"
                 />
               );
 
